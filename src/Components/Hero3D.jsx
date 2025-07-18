@@ -142,7 +142,7 @@ gsap.to(".container1", {
       {/* All images comes here */}
 
 
-       <div className="absolute  w-full h-screen overflow-hidden bg-[url('Bottles-png/bg.png')] bg-cover bg-center">
+       <div className="absolute  w-full h-screen overflow-hidden bg-[url('/Bottles-png/bg.png')] bg-cover bg-center">
     
       <img
         src="/Bottles-png/png.png"
