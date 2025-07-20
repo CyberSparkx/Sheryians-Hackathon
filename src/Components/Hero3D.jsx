@@ -71,53 +71,53 @@ useGSAP(() => {
     x: 460 ,
     y:200,
     scale:0.5,
-    duration:1
+    duration:2
   });
 	gsap.from('.bottles2', { 
     x: 460 ,
     y:-200,
     scale:0.5,
-    duration:1
+    duration:2
   });
 	gsap.from('.bottles3', { 
     rotate:30,
     scale:0.5,
-    duration:1
+    duration:2
   });
 	gsap.from('.bottles4', { 
     x: -60 ,
     rotate:-30,
     scale:0.5,
-    duration:1
+    duration:2
   });
 	gsap.from('.bottles5', { 
     x: -460 ,
     y:200,
     scale:0.5,
-    duration:1
+    duration:2
   });
 	gsap.from('.bottles6', { 
     x: -460 ,
     y:-200,
     scale:0.5,
-    duration:1
+    duration:2
   });
 	gsap.from('.bottles7', { 
     x: -460 ,
     rotate:-30,
     scale:0.5,
-    duration:1
+    duration:2
   });
 	gsap.from('.bottles8', { 
     x: 460 ,
     rotate:-30,
     scale:0.5,
-    duration:1
+    duration:2
   });
 gsap.to(".container1", {
   rotate: 15,
   y:500,
-  scale: 0.5,
+  scale: 0.7,
    ease: "power1.in",
   scrollTrigger: {
     trigger: ".container1",   
@@ -133,9 +133,9 @@ gsap.to(".container1", {
       <div className="absolute flex flex-col justify-center items-center top-[50%] left-[8%] md:left-[15%]  lg:left-[32%]  z-12 backdrop-blur-md bg-white/30 border border-white/20 rounded-xl p-8 shadow-xl">
        <div className="backdrop-blur-md bg-white/20 border border-white/10 rounded-xl
  py-4 px-6 ">
-         <h1 className="md:text-7xl text-3xl font-bold  text-[#ffffff]">PRIME DRINK</h1>
+         <h1 className="md:text-7xl text-3xl font-bold  text-zinc-800">PRIME DRINK</h1>
        </div>
-        <p className="md:text-3xl text-lg text-white font-bold opacity-75">MOST LOVED ENERGY DRINK
+        <p className="md:text-3xl text-lg text-black font-bold opacity-75">MOST LOVED ENERGY DRINK
         </p>
       </div>
 
