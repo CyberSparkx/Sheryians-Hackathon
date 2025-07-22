@@ -1,0 +1,148 @@
+const productData = [
+  {
+    id: "sournova",
+    title: "SOURNOVA",
+    category: "Prime Bottles",
+    bg: "/Products-bg/bg1.svg",
+    mini: "/Micros/Ice with pudina.png",
+    can: "/Bottles-png/png1.png",
+    price: 120,
+    rating: 4.8,
+    description:
+      "Sournova is a tangy and refreshing drink infused with minty coolness. Perfect for energizing your day with a unique twist.",
+  },
+  {
+    id: "future-freeze",
+    title: "FUTURE FREEZE",
+    category: "Prime Bottles",
+    bg: "/Products-bg/bg3.svg",
+    mini: "/Micros/Ice.png",
+    can: "/Bottles-png/png2.png",
+    price: 110,
+    rating: 4.7,
+    description:
+      "A futuristic blast of flavor with intense chill, Future Freeze brings the icy punch you need to beat the heat.",
+  },
+  {
+    id: "cherry-freeze",
+    title: "CHERRY FREEZE",
+    category: "Prime Bottles",
+    bg: "/Products-bg/bg2.svg",
+    mini: "/Micros/Cherry.png",
+    can: "/Bottles-png/png3.png",
+    price: 115,
+    rating: 4.6,
+    description:
+      "Bursting with juicy cherry flavor and frozen freshness, Cherry Freeze is your go-to hydration with attitude.",
+  },
+  {
+    id: "peeso-pluma",
+    title: "PEESO PLUMA",
+    category: "Prime Bottles",
+    bg: "/Products-bg/bg6.svg",
+    mini: "/Micros/chocklate.png",
+    can: "/Bottles-png/png4.png",
+    price: 125,
+    rating: 4.9,
+    description:
+      "Peeso Pluma combines smooth chocolate tones with a rich energy blend. A bold drink for bold personalities.",
+  },
+  {
+    id: "orange-cream",
+    title: "ORANGE CREAM",
+    category: "Prime Bottles",
+    bg: "/bgs/product-bg3.svg",
+    mini: "/Micros/Orange.png",
+    can: "/Products/orange-btl.png",
+    price: 110,
+    rating: 4.5,
+    description:
+      "Smooth, creamy, and citrusy – Orange Cream delivers a nostalgic orange float flavor with a modern boost.",
+  },
+  {
+    id: "ocean-cherry",
+    title: "OCEAN CHERRY",
+    category: "Prime Sticks",
+    bg: "/Products-bg/bg2.svg",
+    mini: "/Micros/Cherry.png",
+    can: "/Products/CherryStick.png",
+    price: 99,
+    rating: 4.4,
+    description:
+      "Ocean Cherry stick blends cherry sweetness with a splash of sea breeze – instant refreshment in every sip.",
+  },
+  {
+    id: "berry-citrus",
+    title: "BERRY CITRUS RUSH",
+    category: "Prime Sticks",
+    bg: "/Products-bg/bg2.svg",
+    mini: "/Micros/Blueberry.png",
+    can: "/Products/berrycitrusStick.png",
+    price: 99,
+    rating: 4.6,
+    description:
+      "A citrusy zing fused with ripe berry flavor, Berry Citrus Rush is designed to electrify your hydration.",
+  },
+  {
+    id: "glacier-orange",
+    title: "GLACIER ORANGE",
+    category: "Prime Sticks",
+    bg: "/Products-bg/bg4.svg",
+    mini: "/Micros/Orange.png",
+    can: "/Products/orangeStick.png",
+    price: 99,
+    rating: 4.3,
+    description:
+      "Glacier Orange cools and energizes like a mountain breeze with the brightness of sun-ripened oranges.",
+  },
+  {
+    id: "cherry-limeade",
+    title: "CHERRY LIMEADE",
+    category: "Prime Can",
+    bg: "/Products-bg/bg2.svg",
+    mini: "/Micros/Cherry.png",
+    can: "/Products/CherryLimeadeCAn.png",
+    price: 130,
+    rating: 4.7,
+    description:
+      "Sweet cherry meets zesty lime in this can of fizzy hydration. A party in your mouth that refreshes instantly.",
+  },
+  {
+    id: "dream-pop",
+    title: "DREAM POP",
+    category: "Prime Can",
+    bg: "/Products-bg/bg4.svg",
+    mini: "/Micros/Orange.png",
+    can: "/Products/DreamPopCAn.png",
+    price: 135,
+    rating: 4.8,
+    description:
+      "Inspired by dreamy desserts and fruity popsicles, Dream Pop is a vibrant, fun-flavored refreshment.",
+  },
+  {
+    id: "dripslice",
+    title: "DRIPSLICE",
+    category: "Prime Can",
+    bg: "/Products-bg/bg3.svg",
+    mini: "/Micros/Ice.png",
+    can: "/Products/Dripslice.png",
+    price: 140,
+    rating: 4.9,
+    description:
+      "Cool like a drip, bold like a slice of power. Dripslice blends energy with sophistication.",
+  },
+  {
+    id: "original",
+    title: "ORIGNAL",
+    category: "Prime Can",
+    bg: "/Products-bg/bg6.svg",
+    mini: "/Micros/Ice with pudina.png",
+    can: "/Products/OriginalCAn.png",
+    price: 120,
+    rating: 4.5,
+    description:
+      "The original formula that started it all. A classic Prime experience with energizing flavor and purity.",
+  },
+];
+
+export default productData;

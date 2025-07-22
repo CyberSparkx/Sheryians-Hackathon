@@ -71,47 +71,55 @@ useGSAP(() => {
     x: 460 ,
     y:200,
     scale:0.5,
+    delay:2,
     duration:2
   });
 	gsap.from('.bottles2', { 
     x: 460 ,
     y:-200,
     scale:0.5,
+    delay:2,
     duration:2
   });
 	gsap.from('.bottles3', { 
     rotate:30,
     scale:0.5,
+    delay:2,
     duration:2
   });
 	gsap.from('.bottles4', { 
     x: -60 ,
     rotate:-30,
     scale:0.5,
+    delay:2,
     duration:2
   });
 	gsap.from('.bottles5', { 
     x: -460 ,
     y:200,
     scale:0.5,
+    delay:2,
     duration:2
   });
 	gsap.from('.bottles6', { 
     x: -460 ,
     y:-200,
     scale:0.5,
+    delay:2,
     duration:2
   });
 	gsap.from('.bottles7', { 
     x: -460 ,
     rotate:-30,
     scale:0.5,
+    delay:2,
     duration:2
   });
 	gsap.from('.bottles8', { 
     x: 460 ,
     rotate:-30,
     scale:0.5,
+    delay:2,
     duration:2
   });
 gsap.to(".container1", {
@@ -142,7 +150,7 @@ gsap.to(".container1", {
       {/* All images comes here */}
 
 
-       <div className="absolute  w-full h-screen overflow-hidden bg-[url('/Bottles-png/bg.png')] bg-cover bg-center">
+       <div className="absolute  w-full h-screen overflow-hidden bg-[url('/bgs/products-bg1.svg')] bg-cover bg-center">
     
       <img
         src="/Bottles-png/png.png"

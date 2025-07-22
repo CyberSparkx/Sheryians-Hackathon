@@ -108,7 +108,7 @@ const PrimeFooter = () => {
 
         <div className="relative z-10 w-full px-4 md:px-8 lg:px-16">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center mb-8">
+            <div className="text-center mt-10 md:mt-15 lg:mt-2  mb-8">
               <h1 ref={hashtagRef} className="text-4xl md:text-6xl lg:text-8xl font-black text-white tracking-tight">
                 #PRIME ENERGY DRINK
               </h1>

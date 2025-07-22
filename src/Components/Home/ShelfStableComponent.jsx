@@ -81,7 +81,7 @@ const ShelfStableComponent = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gray-900 flex items-center justify-center p-8">
+    <div className="min-h-screen bg-gradient-to-br from-gray-800 via-gray-900 to-black flex items-center justify-center p-8">
       <div 
         ref={containerRef}
         className="relative flex flex-col items-center space-y-4 transform-gpu"
