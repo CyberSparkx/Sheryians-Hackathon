@@ -72,7 +72,7 @@ const Nav = () => {
   const handleLinkClick = () => setMenuOpen(false);
 
   return (
-    <nav ref={navRef} className="fixed top-0 left-0 w-full z-50 p-6 flex items-center justify-between">
+    <nav ref={navRef} className="fixed top-0 left-0 w-full z-[100] p-6 flex items-center justify-between">
       {/* Logo */}
       <img src={logo} alt="Logo" className="h-10 w-auto" />
 

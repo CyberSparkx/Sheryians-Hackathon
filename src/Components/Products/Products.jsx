@@ -7,6 +7,7 @@ import productData from "../data/productData";
 import RightAroundCorner from "../Home/RightAroundCorner";
 import PrimeFooter from "../Home/PrimeFooter";
 import InfiniteScrollBanner from "./Product Details/InfiniteScrollBanner";
+import ReviewSection from "../Home/ReviewSection";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -67,7 +68,7 @@ const Products = () => {
           ))}
         </div>
       </div>
-
+      <ReviewSection/>
       <RightAroundCorner />
       <PrimeFooter />
     </>

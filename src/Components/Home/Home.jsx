@@ -3,6 +3,7 @@ import OurProducts from "./OurProducts";
 import PrimeFooter from "./PrimeFooter";
 import PrimeProductShowcase from "./PrimeProductShowcase";
 import ReviewSection from "./ReviewSection";
+import ReviewVideos from "./ReviewVideos";
 import RightAroundCorner from "./RightAroundCorner";
 import ScrollTextFade from "./ScrollTextFade";
 import ShelfStableComponent from "./ShelfStableComponent";
@@ -18,6 +19,7 @@ const Home = () => {
      <VideoRevealComponent/>
      <PrimeProductShowcase/>
      <ReviewSection/>
+     {/* <ReviewVideos/> */}
      <RightAroundCorner/>
      <PrimeFooter/>
     </div>

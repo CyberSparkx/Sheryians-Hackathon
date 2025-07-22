@@ -11,6 +11,7 @@ import About from "./Components/About Page/About.jsx";
 import ContactUs from "./Components/ContactUs/ContactUs.jsx";
 import LoadingScreen from "./Components/Loading Screen/LoadingScreen.jsx";
 import PageNotFound from './Components/404 Page Not Found/PageNotFound.jsx';
+import ReviewPage from "./Components/Creaters Review/ReviewPage.jsx";
 
 
 const App = () => {
@@ -18,7 +19,7 @@ const App = () => {
     <>
       <div className="font-sans bg-[#f9f9f9] min-h-screen">
         <Nav />
-        <LoadingScreen/>
+        {/* <LoadingScreen/> */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />
@@ -27,8 +28,10 @@ const App = () => {
           <Route path="/about" element={<About />} />
           <Route path="/login" element={<Login/>} />
           <Route path="/contact" element={<ContactUs/>} />
+          <Route path="/reviews" element={<ReviewPage/>} />
            {/* Catch-all route for 404 - must be last */}
         <Route path="*" element={<PageNotFound />} />
+        
         </Routes>
 
         <ToastContainer position="bottom-left" autoClose={2000} />
