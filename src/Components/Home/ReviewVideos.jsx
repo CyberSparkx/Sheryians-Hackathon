@@ -4,19 +4,19 @@ import VideoCard from "../Creaters Review/VideoCard";
 const reviewData = [
   {
     id: 1,
-    videoSrc: "/Review/Video/speedTries.webm",
+    videoSrc: "https://res.cloudinary.com/djgpjawaj/video/upload/v1753254241/speedTries_zg6gwh.webm",
     userPhoto: "/Review/DP/IShowSpeed.png",
     userName: "I Show Speed",
   },
   {
     id: 2,
-    videoSrc: "/Review/Video/Live Morgan.webm",
+    videoSrc: "https://res.cloudinary.com/djgpjawaj/video/upload/v1753254271/Live_Morgan_flerma.webm",
     userPhoto: "/Review/DP/img2.jpg",
     userName: "Live Morgan",
   },
   {
     id: 3,
-    videoSrc: "/Review/Video/KSi.webm",
+    videoSrc: "https://res.cloudinary.com/djgpjawaj/video/upload/v1753254250/KSi_hwi7oq.webm",
     userPhoto: "/About Page Photo/KSI.jpg",
     userName: "KSI",
   },

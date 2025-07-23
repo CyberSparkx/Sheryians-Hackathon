@@ -43,7 +43,7 @@ const VideoRevealComponent = () => {
         className="w-[100vw] h-[100vw] overflow-hidden relative bg-zinc-900 shadow-2xl rounded-full"
       >
         <video
-          src="/video.mkv"
+          src="https://res.cloudinary.com/djgpjawaj/video/upload/v1753254789/video_yolpaa.mkv"
           autoPlay
           muted
           loop

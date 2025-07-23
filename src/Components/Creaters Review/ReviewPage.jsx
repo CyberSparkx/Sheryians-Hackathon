@@ -6,49 +6,49 @@ import RightAroundCorner from "../Home/RightAroundCorner";
 const reviewData = [
   {
     id: 1,
-    videoSrc:"/Review/Video/speedTries.webm",
-    userPhoto:"/Review/DP/IShowSpeed.png",
-    userName:"I Show Speed"
+    videoSrc: "https://res.cloudinary.com/djgpjawaj/video/upload/v1753254241/speedTries_zg6gwh.webm",
+    userPhoto: "/Review/DP/IShowSpeed.png",
+    userName: "I Show Speed",
   },
   {
     id: 2,
-    videoSrc:"/Review/Video/Live Morgan.webm",
-    userPhoto:"/Review/DP/img2.jpg",
+    videoSrc: "https://res.cloudinary.com/djgpjawaj/video/upload/v1753254271/Live_Morgan_flerma.webm",
+    userPhoto: "/Review/DP/img2.jpg",
     userName: "Live Morgan",
   },
   {
     id: 3,
-    videoSrc:"/Review/Video/KSi.webm",
-    userPhoto:"/About Page Photo/KSI.jpg",
+    videoSrc: "https://res.cloudinary.com/djgpjawaj/video/upload/v1753254250/KSi_hwi7oq.webm",
+    userPhoto: "/About Page Photo/KSI.jpg",
     userName: "KSI",
   },
   {
     id: 4,
-    videoSrc:"/Review/Video/mrbeast.webm",
+    videoSrc:"https://res.cloudinary.com/djgpjawaj/video/upload/v1753254237/mrbeast_d3wgkv.webm",
     userPhoto:"/Review/DP/LoganPaul.jpg",
     userName:"Logan Paul"
   },
   {
     id: 5,
-    videoSrc:"/Review/Video/friedChicken.webm",
+    videoSrc:"https://res.cloudinary.com/djgpjawaj/video/upload/v1753254235/friedChicken_dpyhyu.webm",
     userPhoto:"/Review/DP/img6.webp",
     userName:"I Don't Know"
   },
   {
     id: 6,
-     videoSrc:"/Review/Video/hydration.webm",
+     videoSrc:"https://res.cloudinary.com/djgpjawaj/video/upload/v1753254258/hydration_wsk1ms.webm",
     userPhoto:"/Review/DP/img1.jpg",
     userName:"Bhartiya Crazy Bhaiya"
   },
   {
     id: 7,
-    videoSrc:"/Review/Video/wwe.webm",
+    videoSrc:"https://res.cloudinary.com/djgpjawaj/video/upload/v1753254257/wwe_wm2kdk.webm",
     userPhoto:"/Review/DP/LoganPaul.jpg",
     userName:"Logan Paul"
   },
   {
     id: 8,
-    videoSrc:"/Review/Video/ddd.webm",
+    videoSrc:"https://res.cloudinary.com/djgpjawaj/video/upload/v1753254236/ddd_yfa8ia.webm",
     userPhoto:"/Review/DP/img6.webp",
     userName: "Footballer",
   },
