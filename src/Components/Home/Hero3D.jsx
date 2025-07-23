@@ -83,7 +83,7 @@ gsap.to(".container1", {
 
   return (
     <div className="container1 w-full z-[13] h-screen bg-[#f9e6d8]">
-      <div className="absolute flex flex-col justify-center items-center top-[50%] left-[8%] md:left-[15%]  lg:left-[31%]  z-12 backdrop-blur-md bg-white/30 border border-white/20 rounded-xl p-8 shadow-xl">
+      <div className="absolute flex flex-col justify-center items-center top-[50%] left-[10%] md:left-[15%]  lg:left-[31%]  z-12 backdrop-blur-md bg-white/30 border border-white/20 rounded-xl p-8 shadow-xl">
        <div className="backdrop-blur-md bg-white/20 border border-white/10 rounded-xl
  py-4 px-6 ">
          <h1 className="md:text-7xl  text-3xl font-bold  text-zinc-800">PRIME DRINK</h1>
