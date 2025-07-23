@@ -1,4 +1,7 @@
 import React, { useRef, useEffect } from 'react';
+import PrimeDrinkBottle from './PrimeDrinkBottle';
+import PrimeEnergyCans from './PrimeEnergyCans';
+import { Link } from 'react-router-dom';
 
 const loadGSAPScripts = () => {
   return new Promise((resolve) => {
@@ -156,20 +159,16 @@ const App = () => {
               </div>
 
               <div ref={ctaButtonRef} className="pt-12 w-full max-w-xs mx-auto lg:mx-0">
-                <button className="w-full bg-black text-white px-8 py-4 font-bold text-lg tracking-wider hover:bg-gray-800 transition-colors duration-300">
+                <Link to='/products' className="w-full bg-black text-white px-8 py-4 font-bold text-lg tracking-wider hover:bg-gray-800 transition-colors duration-300">
                   REHYDRATE NOW
-                </button>
+                </Link>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className='w-full h-screen flex items-center justify-center bg-white'>
-        <img src="/Bottles-png/Prime Ice.png" className='w-[80vw]' />
-      </section>
-      <section className='w-full h-screen flex items-center justify-center bg-white'>
-        <img src="/Bottles-png/Cans.png" />
-      </section>
+      <PrimeDrinkBottle/>
+      <PrimeEnergyCans/>
     </div>
   );
 };

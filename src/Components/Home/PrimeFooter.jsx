@@ -135,7 +135,7 @@ const PrimeFooter = () => {
               <div className="flex justify-center relative">
                 <div ref={liquidRef} className="absolute top-12 left-1/2 transform -translate-x-1/2 w-3 h-24 z-10" />
 
-                <div className="absolute -left-16 top-8 space-y-6">
+                <div className="absolute left-16 lg:-left-16 top-8 space-y-6">
                   {[Youtube, Instagram, Music].map((Icon, i) => (
                     <div
                       key={i}

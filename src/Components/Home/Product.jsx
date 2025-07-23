@@ -36,7 +36,7 @@ const Product = ({ canImg, bgImage, title }) => {
   return (
     <div
       ref={containerRef}
-      className="w-[60vw] h-[70vh] rounded-3xl flex items-center justify-center bg-white relative overflow-hidden"
+      className="md:w-[60vw] w-[85vw] h-[70vh] rounded-3xl flex sm:flex-col md:flex-row items-center justify-center bg-white relative overflow-hidden"
     >
       {/* Background */}
       <div
@@ -53,7 +53,7 @@ const Product = ({ canImg, bgImage, title }) => {
       />
 
       {/* Title */}
-      <div className="absolute bottom-[2vh] text-red-400 text-3xl font-bold z-30 tracking-wide">
+      <div className="absolute bottom-[2vh] text-white text-3xl font-bold z-30 tracking-wide">
         {title}
       </div>
     </div>

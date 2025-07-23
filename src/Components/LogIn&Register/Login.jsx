@@ -1,8 +1,10 @@
 import { useRef, useState } from "react";
 import { gsap } from "gsap";
+import { useNavigate } from "react-router-dom";
 import { FaUser, FaLock, FaEnvelope } from "react-icons/fa";
 
 export default function PrimeAuth() {
+  const navigate = useNavigate();
   const [isSignup, setIsSignup] = useState(false);
 
   // Login form states
@@ -46,27 +48,34 @@ export default function PrimeAuth() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Optional: Add login logic here
-    setLoginUsername("");
-    setLoginPassword("");
+
+    // 👉 Simulate login success
+    setTimeout(() => {
+      setLoginUsername("");
+      setLoginPassword("");
+      navigate("/profile");
+    }, 500);
   };
 
   const handleSignup = (e) => {
     e.preventDefault();
-    // Optional: Add signup logic here
-    setSignupName("");
-    setSignupEmail("");
-    setSignupPassword("");
+
+    // 👉 Simulate signup success
+    setTimeout(() => {
+      setSignupName("");
+      setSignupEmail("");
+      setSignupPassword("");
+      navigate("/profile");
+    }, 500);
   };
 
   return (
-    <div className="w-screen pt-13 h-screen bg-[url('/bgs/products-bg1.svg')] bg-cover bg-center backdrop-blur-3xl flex items-center justify-center">
+    <div className="w-screen h-screen bg-[url('/bgs/products-bg1.svg')] bg-cover bg-center backdrop-blur-3xl flex items-center justify-center">
       <div className="w-[90vw] max-w-5xl h-[600px] bg-white rounded-2xl shadow-xl flex overflow-hidden relative">
         {/* Bottle Image */}
         <div
           ref={imageRef}
-          className="w-1/2 h-full bg-gradient-to-tr from-pink-900 via-zinc-700 to-blue-900 
-          hidden md:flex items-center justify-center transition-all duration-500 ease-in-out z-10 backdrop-blur-lg"
+          className="w-1/2 h-full bg-gradient-to-tr from-pink-900 via-zinc-700 to-blue-900 hidden md:flex items-center justify-center z-10"
         >
           <img
             src="/Bottles-png/png2.png"
@@ -93,6 +102,7 @@ export default function PrimeAuth() {
                 value={loginUsername}
                 onChange={(e) => setLoginUsername(e.target.value)}
                 className="bg-transparent outline-none w-full"
+                required
               />
             </div>
             <div className="flex items-center gap-2 bg-zinc-100 p-3 rounded-md">
@@ -103,6 +113,7 @@ export default function PrimeAuth() {
                 value={loginPassword}
                 onChange={(e) => setLoginPassword(e.target.value)}
                 className="bg-transparent outline-none w-full"
+                required
               />
             </div>
             <button
@@ -144,6 +155,7 @@ export default function PrimeAuth() {
                 value={signupName}
                 onChange={(e) => setSignupName(e.target.value)}
                 className="bg-transparent outline-none w-full"
+                required
               />
             </div>
             <div className="flex items-center gap-2 bg-zinc-100 p-3 rounded-md">
@@ -154,6 +166,7 @@ export default function PrimeAuth() {
                 value={signupEmail}
                 onChange={(e) => setSignupEmail(e.target.value)}
                 className="bg-transparent outline-none w-full"
+                required
               />
             </div>
             <div className="flex items-center gap-2 bg-zinc-100 p-3 rounded-md">
@@ -164,6 +177,7 @@ export default function PrimeAuth() {
                 value={signupPassword}
                 onChange={(e) => setSignupPassword(e.target.value)}
                 className="bg-transparent outline-none w-full"
+                required
               />
             </div>
             <button

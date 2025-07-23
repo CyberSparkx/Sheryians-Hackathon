@@ -12,14 +12,28 @@ import ContactUs from "./Components/ContactUs/ContactUs.jsx";
 import LoadingScreen from "./Components/Loading Screen/LoadingScreen.jsx";
 import PageNotFound from './Components/404 Page Not Found/PageNotFound.jsx';
 import ReviewPage from "./Components/Creaters Review/ReviewPage.jsx";
+import MouseSparkleEffect from "./Components/Mouse Sparck/MouseSparkleEffect.jsx";
+import Lenis from 'lenis'
 
 
 const App = () => {
+
+  // Initialize Lenis
+const lenis = new Lenis({
+  autoRaf: true,
+});
+
+// Listen for the scroll event and log the event data
+lenis.on('scroll', (e) => {
+  console.log(e);
+});
+
   return (
     <>
-      <div className="font-sans bg-[#f9f9f9] min-h-screen">
+      <div className="  bg-[#f9f9f9] min-h-screen">
         <Nav />
-        {/* <LoadingScreen/> */}
+        <LoadingScreen/>
+        <MouseSparkleEffect/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<Products />} />

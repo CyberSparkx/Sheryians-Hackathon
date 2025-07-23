@@ -7,40 +7,54 @@ gsap.registerPlugin(ScrollTrigger);
 
 const VideoRevealComponent = () => {
   const videoWrapperRef = useRef(null);
-  const sectionRef = useRef(null); // New wrapper for pinning
+  const sectionRef = useRef(null); // Wrapper for pinning
 
   useEffect(() => {
-    const element = videoWrapperRef.current;
+    ScrollTrigger.matchMedia({
+      // Animate only on desktop screens (≥1024px)
+      "(min-width: 1024px)": () => {
+        const element = videoWrapperRef.current;
 
-    gsap.fromTo(
-      element,
-      {
-        scale: 0.1,
-        borderRadius: "50%",
+        const animation = gsap.fromTo(
+          element,
+          {
+            scale: 0.1,
+            borderRadius: "50%",
+          },
+          {
+            scale: 1.3,
+            borderRadius: "50%",
+            ease: "power2.out",
+            scrollTrigger: {
+              trigger: sectionRef.current,
+              start: "top top",
+              end: "+=1500",
+              scrub: true,
+              pin: true,
+            },
+          }
+        );
+
+        return () => {
+          animation.scrollTrigger?.kill();
+          animation.kill();
+        };
       },
-      {
-        scale: 1.3,
-        borderRadius: "50%",
-        ease: "power2.out",
-        scrollTrigger: {
-          trigger: sectionRef.current, // Pin the wrapper
-          start: "top top",
-          end: "+=1500",
-          scrub: true,
-          pin: true,
-        },
-      }
-    );
+    });
+
+    return () => {
+      ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+    };
   }, []);
 
   return (
     <div
       ref={sectionRef}
-      className="w-screen h-screen bg-white overflow-hidden flex items-center justify-center"
+      className="w-screen h-[40vh] md:h-[60vh] lg:h-screen bg-white overflow-hidden flex items-center justify-center"
     >
       <div
         ref={videoWrapperRef}
-        className="w-[100vw] h-[100vw] overflow-hidden relative bg-zinc-900 shadow-2xl rounded-full"
+        className="w-[100vw] h-[30vh] md:h-[40vh] lg:h-[100vw] overflow-hidden relative bg-zinc-900 shadow-2xl lg:rounded-full"
       >
         <video
           src="https://res.cloudinary.com/djgpjawaj/video/upload/v1753254789/video_yolpaa.mkv"

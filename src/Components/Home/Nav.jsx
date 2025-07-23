@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { gsap } from 'gsap';
 import { useGSAP } from '@gsap/react';
-import { Link } from 'react-router-dom';
+import { Link, Links } from 'react-router-dom';
 import logo from '/Bottles-png/logo (1).png';
 
 const Nav = () => {
@@ -82,9 +82,9 @@ const Nav = () => {
       </button>
 
       {/* Signup */}
-      <button className="hidden md:block bg-white border px-6 py-2 rounded-full font-bold text-sm hover:bg-gray-100 transition">
+      <Link to='/login' className="hidden md:block bg-white border px-6 py-2 rounded-full font-bold text-sm hover:bg-gray-100 transition">
         SIGN UP
-      </button>
+      </Link>
 
       {/* Fullscreen Menu */}
       <div

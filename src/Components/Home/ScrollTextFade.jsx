@@ -39,7 +39,7 @@ useGSAP(() => {
 
   return (
     <div className="container2 min-h-screen w-full relative z-[14] flex items-center justify-center bg-[#7d3b2b] px-4 py-20">
-      <div className="text-center w-[50vw] text-4xl md:text-6xl font-extrabold leading-tight space-y-2">
+      <div className="text-center w-[70vw] md:w-[50vw] text-4xl md:text-6xl font-extrabold leading-tight space-y-2">
         <span className="mr-3">{splitWord("UNLEASH")}</span>
         <span className="mr-3">{splitWord("UNSTOPPABLE")}</span> <br />
         <span className="mr-3">{splitWord("ENERGY")}</span>

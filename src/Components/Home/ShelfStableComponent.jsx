@@ -89,12 +89,12 @@ const ShelfStableComponent = () => {
         {/* SHELF STABLE */}
         <div 
           ref={shelfStableRef}
-          className="bg-orange-400 px-12 py-6 transform -rotate-2 shadow-2xl"
+          className="bg-orange-400 px-5 md:px-12 py-6 transform -rotate-2 shadow-2xl"
           style={{
             clipPath: 'polygon(2% 0%, 100% 0%, 98% 100%, 0% 100%)'
           }}
         >
-          <h2 className="text-white text-4xl md:text-6xl font-black tracking-wider">
+          <h2 className="text-white text-xl md:text-5xl lg:text-6xl  font-black tracking-wider">
             SHELF STABLE
           </h2>
         </div>
@@ -102,12 +102,12 @@ const ShelfStableComponent = () => {
         {/* PROTEIN + CAFFEINE */}
         <div 
           ref={proteinCaffeineRef}
-          className="bg-gray-100 px-12 py-6 transform rotate-1 shadow-2xl"
+          className="bg-gray-100 px-5 md:px-12 py-6 transform rotate-1 shadow-2xl"
           style={{
             clipPath: 'polygon(0% 0%, 98% 0%, 100% 100%, 2% 100%)'
           }}
         >
-          <h2 className="text-gray-900 text-4xl md:text-6xl font-black tracking-wider">
+          <h2 className="text-gray-900 text-xl md:text-5xl lg:text-6xl  font-black tracking-wider">
             PROTEIN + CAFFEINE
           </h2>
         </div>
@@ -115,12 +115,12 @@ const ShelfStableComponent = () => {
         {/* INFINITELY RECYCLABLE */}
         <div 
           ref={infinitelyRef}
-          className="bg-red-700 px-12 py-6 transform -rotate-1 shadow-2xl"
+          className="bg-red-700 px-5 md:px-12 py-6 transform -rotate-1 shadow-2xl"
           style={{
             clipPath: 'polygon(1% 0%, 99% 0%, 98% 100%, 2% 100%)'
           }}
         >
-          <h2 className="text-white text-3xl md:text-5xl font-black tracking-wider">
+          <h2 className="text-white text-xl md:text-5xl font-black tracking-wider">
             INFINITELY RECYCLABLE
           </h2>
         </div>
@@ -128,12 +128,12 @@ const ShelfStableComponent = () => {
         {/* LACTOSE FREE */}
         <div 
           ref={lactoseFreeRef}
-          className="bg-yellow-500 px-12 py-6 transform rotate-2 shadow-2xl"
+          className="bg-yellow-500 px-5 md:px-12 py-6 transform rotate-2 shadow-2xl"
           style={{
             clipPath: 'polygon(0% 0%, 98% 0%, 100% 100%, 2% 100%)'
           }}
         >
-          <h2 className="text-gray-900 text-4xl md:text-6xl font-black tracking-wider">
+          <h2 className="text-gray-900 text-xl md:text-5xl lg:text-6xl  font-black tracking-wider">
             LACTOSE FREE
           </h2>
         </div>

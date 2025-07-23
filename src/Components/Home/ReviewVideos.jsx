@@ -10,7 +10,7 @@ const reviewData = [
   },
   {
     id: 2,
-    videoSrc: "https://res.cloudinary.com/djgpjawaj/video/upload/v1753254271/Live_Morgan_flerma.webm",
+    videoSrc: "https://res.cloudinary.com/djgpjawaj/video/upload/v1753254237/mrbeast_d3wgkv.webm",
     userPhoto: "/Review/DP/img2.jpg",
     userName: "Live Morgan",
   },

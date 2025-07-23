@@ -1,6 +1,7 @@
 import React, { useRef } from "react";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
+import { Link } from "react-router-dom";
 
 const founders = [
   {
@@ -127,9 +128,9 @@ const About = () => {
         <p className="text-gray-700 max-w-xl mx-auto mb-6">
           Whether you're training, gaming, or living life to the fullest — Prime is here to keep you energized and hydrated.
         </p>
-        <button className="bg-[#4B2A1E] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#eba950] hover:text-black transition-all">
+        <Link to='/products' className="bg-[#4B2A1E] text-white px-6 py-3 rounded-full font-semibold hover:bg-[#eba950] hover:text-black transition-all">
           Shop Now
-        </button>
+        </Link>
       </div>
     </div>
   );
